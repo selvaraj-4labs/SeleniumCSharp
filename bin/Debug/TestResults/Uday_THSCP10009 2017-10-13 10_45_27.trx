@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a0190860-daa2-40b4-b9af-65383d88e443" name="Uday@THSCP10009 2017-10-13 10:45:27" runUser="THIME\Uday" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="242cc427-7e1d-4364-b1ff-ebbd0520d0a7">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Uday_THSCP10009 2017-10-13 10_45_27" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-10-13T10:45:27.6451691+05:30" queuing="2017-10-13T10:45:28.1431544+05:30" start="2017-10-13T10:45:28.2031526+05:30" finish="2017-10-13T10:46:49.5413495+05:30" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="4" executed="2" error="0" failed="0" timeout="0" aborted="2" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoginToCRM" storage="seleniumcsharpmstest.dll" id="6f9f4e50-0aa9-5406-211f-ccb045cb6f8b">
+      <Execution id="365954aa-012d-4f5f-8d04-062f35918233" />
+      <TestMethod codeBase="D:/V5/V5/SeleniumCSharpMSTest/SeleniumCSharpMSTest/bin/Debug/SeleniumCSharpMSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCSharpMSTest.TestScripts.Testing, SeleniumCSharpMSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginToCRM" />
+      <DataSource connectionString="Dsn=Excel Files;Driver={Microsoft Excel Driver (*.xlsx)};dbq=|DataDirectory|\DataManager\TestData.xlsx;defaultdir=.;driverid=1046;maxbuffersize=2048;pagetimeout=5" providerInvariantName="System.Data.Odbc" tableName="Testdata$" />
+    </UnitTest>
+    <UnitTest name="Test" storage="seleniumcsharpmstest.dll" id="0e3c253e-0137-a6d5-1384-23ff962987bb">
+      <Execution id="c2b7f5ba-bfef-49ad-8b1d-0300371e0b81" />
+      <TestMethod codeBase="D:/V5/V5/SeleniumCSharpMSTest/SeleniumCSharpMSTest/bin/Debug/SeleniumCSharpMSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCSharpMSTest.TestScripts.Testing1, SeleniumCSharpMSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test" />
+      <DataSource connectionString="Dsn=Excel Files;Driver={Microsoft Excel Driver (*.xlsx)};dbq=|DataDirectory|\DataManager\TestData.xlsx;defaultdir=.;driverid=1046;maxbuffersize=2048;pagetimeout=5" providerInvariantName="System.Data.Odbc" tableName="Testdata$" />
+    </UnitTest>
+    <UnitTest name="MarketingCampaign1" storage="seleniumcsharpmstest.dll" id="3ee81c67-8c9d-4cb2-f85f-4ff1055e1a52">
+      <Execution id="756bc987-5813-4dc0-84de-a3103fbb6148" />
+      <TestMethod codeBase="D:/V5/V5/SeleniumCSharpMSTest/SeleniumCSharpMSTest/bin/Debug/SeleniumCSharpMSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCSharpMSTest.TestScripts.Testing1, SeleniumCSharpMSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MarketingCampaign1" />
+      <DataSource connectionString="Dsn=Excel Files;Driver={Microsoft Excel Driver (*.xlsx)};dbq=|DataDirectory|\DataManager\TestData.xlsx;defaultdir=.;driverid=1046;maxbuffersize=2048;pagetimeout=5" providerInvariantName="System.Data.Odbc" tableName="Testdata$" />
+    </UnitTest>
+    <UnitTest name="MarketingCampaign" storage="seleniumcsharpmstest.dll" id="df6c6f88-b00a-09c2-ba5a-1a52fbd70a60">
+      <Execution id="a7e7c83a-f40c-4e11-867f-1cc3a21c594d" />
+      <TestMethod codeBase="D:/V5/V5/SeleniumCSharpMSTest/SeleniumCSharpMSTest/bin/Debug/SeleniumCSharpMSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeleniumCSharpMSTest.TestScripts.Testing, SeleniumCSharpMSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MarketingCampaign" />
+      <DataSource connectionString="Dsn=Excel Files;Driver={Microsoft Excel Driver (*.xlsx)};dbq=|DataDirectory|\DataManager\TestData.xlsx;defaultdir=.;driverid=1046;maxbuffersize=2048;pagetimeout=5" providerInvariantName="System.Data.Odbc" tableName="Testdata$" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6f9f4e50-0aa9-5406-211f-ccb045cb6f8b" executionId="365954aa-012d-4f5f-8d04-062f35918233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df6c6f88-b00a-09c2-ba5a-1a52fbd70a60" executionId="a7e7c83a-f40c-4e11-867f-1cc3a21c594d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ee81c67-8c9d-4cb2-f85f-4ff1055e1a52" executionId="756bc987-5813-4dc0-84de-a3103fbb6148" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e3c253e-0137-a6d5-1384-23ff962987bb" executionId="c2b7f5ba-bfef-49ad-8b1d-0300371e0b81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="365954aa-012d-4f5f-8d04-062f35918233" testId="6f9f4e50-0aa9-5406-211f-ccb045cb6f8b" testName="LoginToCRM" computerName="THSCP10009" duration="00:01:18.5142812" startTime="2017-10-13T10:45:28.2631508+05:30" endTime="2017-10-13T10:46:46.7774320+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="365954aa-012d-4f5f-8d04-062f35918233" resultType="DataDrivenTest">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+      <Counters error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="1e1d1b65-6315-422e-8b00-a416d12040ba" parentExecutionId="365954aa-012d-4f5f-8d04-062f35918233" testId="6f9f4e50-0aa9-5406-211f-ccb045cb6f8b" testName="LoginToCRM" computerName="THSCP10009" duration="00:01:18.1089313" startTime="2017-10-13T10:45:28.6571391+05:30" endTime="2017-10-13T10:46:46.7674323+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="365954aa-012d-4f5f-8d04-062f35918233" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50945/session/1de4bd064488efd3b718a198ae8954df/screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server</StdOut>
+            <ErrorInfo>
+              <Message>The test was aborted due to user request or timeout.</Message>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7e7c83a-f40c-4e11-867f-1cc3a21c594d" testId="df6c6f88-b00a-09c2-ba5a-1a52fbd70a60" testName="MarketingCampaign" computerName="THSCP10009" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7e7c83a-f40c-4e11-867f-1cc3a21c594d">
+    </UnitTestResult>
+    <UnitTestResult executionId="756bc987-5813-4dc0-84de-a3103fbb6148" testId="3ee81c67-8c9d-4cb2-f85f-4ff1055e1a52" testName="MarketingCampaign1" computerName="THSCP10009" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="756bc987-5813-4dc0-84de-a3103fbb6148">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2b7f5ba-bfef-49ad-8b1d-0300371e0b81" testId="0e3c253e-0137-a6d5-1384-23ff962987bb" testName="Test" computerName="THSCP10009" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2b7f5ba-bfef-49ad-8b1d-0300371e0b81">
+    </UnitTestResult>
+  </Results>
+</TestRun>

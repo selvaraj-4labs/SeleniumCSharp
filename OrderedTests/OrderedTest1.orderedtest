@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="OrderedTest1" storage="d:\v5\v5\seleniumcsharpmstest\seleniumcsharpmstest\orderedtests\orderedtest1.orderedtest" id="815d68e5-af57-4718-950d-11a53ad4e849" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="0e3c253e-0137-a6d5-1384-23ff962987bb" name="Test" storage="..\bin\debug\seleniumcsharpmstest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
